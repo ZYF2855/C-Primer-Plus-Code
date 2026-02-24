@@ -80,5 +80,5 @@ void calculator(char func)  //非法输入需要修改s
 }
 
 /*
-scanf和getchar一样，读取的是缓冲区中的数据
+scanf和getchar一样，读取的是缓冲区中的数据，清除缓冲区常用方法就是1.while（getchar（）！=‘\n’）2.fflush（stdin）
 */
